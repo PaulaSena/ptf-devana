@@ -1,0 +1,205 @@
+.hero {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+
+.hImg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: auto;
+    width: max-content;
+
+}
+
+.hImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+
+.hSection {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.hTitle {
+    margin-top: 50px;
+    font-size: 100px;
+    /*font-size: 5.1rem;*/
+    color: pink
+        /*color: wheat !important;*/
+}
+
+.hTitle span {
+    color: white;
+}
+
+.awards {
+    width: 30%;
+}
+
+.awards p {
+    font-size: 1rem;
+    /*font-size: 14px;*/
+    margin: 16px 0px;
+    color: #ddd;
+}
+
+.awardList {
+    display: flex;
+    gap: 8px;
+}
+
+.awardList img {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.scroll {
+    margin-bottom: 50px;
+    width: max-content;
+}
+
+.hSection.right {
+    align-items: end;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    background-color: #450864;
+    border-bottom-right-radius: 15px;
+}
+
+.follow img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.followTextContainer {
+    width: 20px;
+    height: 20px;
+}
+
+.followText {
+    background-color: rgb(247, 131, 73);
+    width: max-content;
+    rotate: 90deg;
+    height: 100%;
+    font-size: 12px;
+    transform-origin: left top;
+    /**/
+    transform: translateY(-20px);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+
+}
+
+.bubbleContainer {
+    width: 50%;
+    display: flex;
+    align-items:end ;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.bubble {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: #555;
+    padding: 24px;
+    font-size: 18px;
+    border-radius: 20px 20px 0px 20px ;
+}
+
+.bubble img {
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+    object-fit: cover;
+    background-color: royalblue;
+}
+
+.certificate {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 300;
+    font-size: 80%;
+    color: #ddd;
+}
+
+.certificate img {
+    width: 20%;
+    text-align: center;
+    display: flex;
+}
+
+.certificate text {
+    text-align: center;
+}
+
+.contactLink {
+    margin-bottom: 50px;
+}
+
+.contactButton {
+    position: relative;
+}
+
+.circleText {
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*    background-color: #450864;*/
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* react type animation 
+https: //www.npmjs.com/package/react-type-animation
+npm install react-type-animation
+*/
