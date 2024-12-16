@@ -1,6 +1,6 @@
 import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-
+import { OrbitControls } from "@react-three/drei";
 const Test3d = () => {
   return (
     <section
@@ -10,7 +10,7 @@ const Test3d = () => {
         justifyContent: "center"
       }}
     >
-      <Canvas>
+      {/* <Canvas>
         <mesh>
           <Sphere args={[1, 100, 200]} scale={2.4}>
             <MeshDistortMaterial
@@ -20,12 +20,26 @@ const Test3d = () => {
               speed={2}
             />
           </Sphere>
-          {/* <meshStandardMaterial color="red"/> */}
           <ambientLight intensity={2} />
           <directionalLight position={[1, 2, 3]} />
-          {/* <OrbitControls enableZoom={false} /> */}
         </mesh>
       </Canvas>
+      */}
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <b></b>
+      <canvas>
+        <mesh>
+          <boxGeometry args={[2, 2, 2]} />
+          <meshBasicMaterial color="red" />
+          <ambientLight intensity={0.2} />
+          <directionalLight color="blue" position={[1, 2, 0]} />
+          <OrbitControls />
+        </mesh>
+      </canvas>
     </section>
   );
 };

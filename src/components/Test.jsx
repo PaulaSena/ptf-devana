@@ -3,33 +3,33 @@ import { motion } from "motion/react";
 const shapeVariants = {
   initialRect: {
     x: -100,
-    opacity: 0
+    opacity: 0,
   },
   animateRect: {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 2
-    }
+      duration: 2,
+    },
   },
   initialCirc: {
     y: -100,
-    opacity: 0
+    opacity: 0,
   },
   animateCirc: {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 3
-    }
-  }
+      duration: 3,
+    },
+  },
 };
 
 const listVariants = {
   initial: {
     x: -100,
     y: -100,
-    opacity: 0
+    opacity: 0,
   },
   animate: {
     x: 0,
@@ -37,9 +37,9 @@ const listVariants = {
     opacity: 1,
     transition: {
       duration: 3,
-      staggerChildren: 1
-    }
-  }
+      staggerChildren: 1,
+    },
+  },
 };
 
 const Test = () => {
@@ -48,7 +48,7 @@ const Test = () => {
       style={{
         display: "flex",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
       }}
     >
       <motion.div
@@ -73,7 +73,7 @@ const Test = () => {
           width: 300,
           height: 300,
           background: "green",
-          borderRadius: "100%"
+          borderRadius: "100%",
         }}
       ></motion.div>
       <motion.ul variants={listVariants} initial="initial" animate="animate">

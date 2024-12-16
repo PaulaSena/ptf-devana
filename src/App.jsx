@@ -2,6 +2,15 @@ import Hero from "./components/hero/Hero";
 import Services from "./components/services/Services";
 import Portifolio from "./components/portifolio/Portifolio";
 import Contact from "./components/contact/Contact";
+import Shape from "./components/hero/Shape";
+import Test3d from "./components/Test";
+import Test from "./components/Test";
+
+{
+  /*
+import Speech from "./Speech";
+*/
+}
 
 const App = () => {
   return (
@@ -19,8 +28,11 @@ const App = () => {
         <Contact />
       </section>
     </div>
-  
   );
 };
+{
+  /*import Test from "./components/Test";
+   <Test />*/
+}
 
 export default App;
