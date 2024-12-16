@@ -1,9 +1,13 @@
-
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "motion/react";
 
 const Speech = () => {
   return (
-    <div className="bubbleContainer">
+    <motion.div
+      animate={{ opacity: [0, 1] }}
+      transition={{ duration: 4 }}
+      className="bubbleContainer"
+    >
       <div className="bubble">
         <TypeAnimation
           sequence={[
@@ -21,8 +25,9 @@ const Speech = () => {
           repeat={Infinity}
         />
       </div>
-      <img src="/pedro-2.png" alt="" width={55}/>
-    </div>
+
+      <img src="/pedro-2.png" alt="" width={55} />
+    </motion.div>
   );
 };
 
