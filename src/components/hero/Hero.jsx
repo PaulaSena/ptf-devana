@@ -166,7 +166,7 @@ const Hero = () => {
           className="certificate"
         >
           <motion.img
-            src="/public/baja-california-2.png"
+            src="/baja-california-2.png"
             alt="certificado intercâmbio"
           />
           CERTIFICADO DE INTERCAMBIO DE INMERSIÓN EN EL IDIOMA ESPAÑOL
@@ -235,7 +235,7 @@ const Hero = () => {
           </Suspense>
         </Canvas>
         <div className="hImg">
-          <img src="/Ricc2a.png" alt="" />
+          <img src="/Ricc4.png" alt="" />
         </div>
       </div>
     </div>
