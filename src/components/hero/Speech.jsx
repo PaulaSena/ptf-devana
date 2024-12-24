@@ -11,11 +11,12 @@ const Speech = () => {
       <div className="bubble">
         <TypeAnimation
           sequence={[
-            // Same substring at the start will only be typed out once, initially
-            1000, // wait 1s before replacing "Mice" with "Hamsters"
-            "We produce food for Hamsters",
             1000,
-            "We produce food for Guinea Pigs"
+            "Custom-made websites to make your business stand out.",
+            //"Websites feitos sob medida para destacar o seu negócio.",
+            1000,
+            "Are you looking for a creative and functional website? Let's bring your vision to the web!"
+            //"Está procurando um site criativo e funcional? Vamos trazer sua visão para a web!"
           ]}
           wrapper="span"
           speed={40}
@@ -26,7 +27,7 @@ const Speech = () => {
         />
       </div>
 
-      <img src="/pedro-2.png" alt="" width={55} />
+      <img src="/pedro-2.png" color="rgb(247, 131, 73);" alt="" width={55} />
     </motion.div>
   );
 };

@@ -74,9 +74,12 @@ const Hero = () => {
           animate="animate"
           className="awards"
         >
-          <motion.h2 variants={awardVariants}> Top Rated Designer </motion.h2>
+          <motion.h2 variants={awardVariants}>
+            {" "}
+            Transforming ideas into digital solutions.{" "}
+          </motion.h2>
           <motion.p variants={awardVariants}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus.{" "}
+            Academic and Technical Training in Systems Analysis and Development.{" "}
           </motion.p>
           <motion.div variants={awardVariants} className="awardList">
             <motion.img
@@ -222,6 +225,8 @@ const Hero = () => {
           </motion.div>
         </motion.a>
       </div>
+      <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."></div>
+
       <div className="bg">
         {/* 3d */}
         <Canvas>
