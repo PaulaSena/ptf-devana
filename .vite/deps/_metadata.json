@@ -2,7 +2,84 @@
   "hash": "6fa4d9da",
   "configHash": "b6159a90",
   "lockfileHash": "f752ebc6",
+<<<<<<< HEAD
   "browserHash": "06127200",
   "optimized": {},
   "chunks": {}
+=======
+  "browserHash": "ad8fb5b2",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "513ba166",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "861283bf",
+      "needsInterop": true
+    },
+    "@react-three/drei": {
+      "src": "../../node_modules/@react-three/drei/index.js",
+      "file": "@react-three_drei.js",
+      "fileHash": "a0cb2e66",
+      "needsInterop": false
+    },
+    "three": {
+      "src": "../../node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "731aa35a",
+      "needsInterop": false
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "397a13f0",
+      "needsInterop": false
+    },
+    "motion/react": {
+      "src": "../../node_modules/motion/dist/es/motion/lib/react.mjs",
+      "file": "motion_react.js",
+      "fileHash": "59edb36c",
+      "needsInterop": false
+    },
+    "react-type-animation": {
+      "src": "../../node_modules/react-type-animation/dist/esm/index.es.js",
+      "file": "react-type-animation.js",
+      "fileHash": "2569e2ac",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "vision_bundle-3QUMERFG": {
+      "file": "vision_bundle-3QUMERFG.js"
+    },
+    "chunk-BOOLWMIK": {
+      "file": "chunk-BOOLWMIK.js"
+    },
+    "chunk-QG3J32OA": {
+      "file": "chunk-QG3J32OA.js"
+    },
+    "chunk-J3GJSMK3": {
+      "file": "chunk-J3GJSMK3.js"
+    },
+    "chunk-QDTBIX2K": {
+      "file": "chunk-QDTBIX2K.js"
+    },
+    "chunk-32E4H3EV": {
+      "file": "chunk-32E4H3EV.js"
+    },
+    "hls-DVRVQDLS": {
+      "file": "hls-DVRVQDLS.js"
+    },
+    "chunk-JF3LBV2R": {
+      "file": "chunk-JF3LBV2R.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+>>>>>>> Hero
 }

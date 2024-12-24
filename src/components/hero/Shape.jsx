@@ -4,7 +4,7 @@ import { useLoader } from "@react-three/fiber";
 const Shape = () => {
     const gradientTexture = useLoader(
       TextureLoader,
-      "/public/fundo-gdrosaazul.jpg"
+      "/fundo-gdrosaazul.jpg"
     );
 
   return (
