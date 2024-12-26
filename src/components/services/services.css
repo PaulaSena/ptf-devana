@@ -1,0 +1,12 @@
+.services {
+    height: 100%;
+    overflow: hidden !important;
+    display: flex;
+}
+
+.sSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
